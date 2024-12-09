@@ -1,0 +1,58 @@
+/* Ensure the page takes full height */
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Content wrapper takes the remaining space above the footer */
+.content-wrapper {
+    flex: 1; /* Fills the space between the header and footer */
+}
+header {
+    background-color: #003e0a;
+    border-bottom: 2px solid #ddd;
+    padding: 10px 20px;
+}
+/* Center the logo */
+.header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+logo img {
+    max-width: 250px; /* Adjust size as needed */
+    height: auto;
+}
+
+/* Footer styling */
+footer {
+    background-color: #f8f8f8;
+    text-align: center;
+    padding: 10px 20px;
+    border-top: 2px solid #ddd;
+}
+
+
+nav a {
+    color: white;
+    margin: 0 1rem;
+    text-decoration: none;
+}
+
+main {
+    padding: 2rem;
+}
+
+
+.carousel-item img {
+    height: 500px; /* Adjust height as needed */
+    object-fit: cover; /* Ensures the image fits nicely */
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+}
